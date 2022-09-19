@@ -26,8 +26,8 @@ import { MatTableModule } from "@angular/material/table"
     Componente2Component,
     Componente3Component,
     Componente4Component,
-    MenuComponent,
-    Componente5Component
+    Componente5Component,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
