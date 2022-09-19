@@ -8,6 +8,7 @@ import { Componente1Component } from './componentes/componente1/componente1.comp
 import { Componente2Component } from './componentes/componente2/componente2.component';
 import { Componente3Component } from './componentes/componente3/componente3.component';
 import { Componente4Component } from './componentes/componente4/componente4.component';
+import { Componente5Component } from './componentes/componente5/componente5.component';
 import { MenuComponent } from './menu/menu.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -15,7 +16,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
-import { MatCardModule } from "@angular/material/card"
+import { MatCardModule } from "@angular/material/card";
+import { MatTableModule } from "@angular/material/table"
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { MatCardModule } from "@angular/material/card"
     Componente2Component,
     Componente3Component,
     Componente4Component,
-    MenuComponent
+    MenuComponent,
+    Componente5Component
   ],
   imports: [
     BrowserModule,
@@ -36,7 +39,8 @@ import { MatCardModule } from "@angular/material/card"
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatTableModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
