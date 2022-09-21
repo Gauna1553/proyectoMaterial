@@ -17,7 +17,9 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from "@angular/material/card";
-import { MatTableModule } from "@angular/material/table"
+import { MatTableModule } from "@angular/material/table";
+import { MatGridListModule } from '@angular/material/grid-list'
+import { MatTabsModule } from '@angular/material/tabs'
 
 @NgModule({
   declarations: [
@@ -41,6 +43,8 @@ import { MatTableModule } from "@angular/material/table"
     MatListModule,
     MatCardModule,
     MatTableModule,
+    MatGridListModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
