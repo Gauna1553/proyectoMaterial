@@ -20,7 +20,8 @@ import { MatCardModule } from "@angular/material/card";
 import { MatTableModule } from "@angular/material/table";
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatTabsModule } from '@angular/material/tabs';
-import {MatAccordionModule} from '@angular/material/expansion';
+import { MatExpansionModule} from '@angular/material/expansion';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,9 @@ import {MatAccordionModule} from '@angular/material/expansion';
     MatTableModule,
     MatGridListModule,
     MatTabsModule,
-    MatAccordionModule
+    MatExpansionModule,
+    MatFormFieldModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
